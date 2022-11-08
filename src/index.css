@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-800 text-white flex items-center min-h-screen min-w-[320px]
+  }
+}
+
+@layer components {
+  button {
+    @apply bg-gray-700 text-white font-semibold rounded-lg px-4 py-2 border-2 border-slate-400
+  }
+  button:hover {
+    @apply bg-gray-600
+  }
+  h1 {
+    @apply text-4xl leading-10
+  }
+}
