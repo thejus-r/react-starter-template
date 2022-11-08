@@ -10,21 +10,21 @@ function App() {
         <a href="https://vitejs.dev" target="_blank">
           <img
             src="/vite.svg"
-            className="h-24 m-8 hover:drop-shadow-[0_0_35px_rgba(174,72,251,0.7)]"
+            className="h-24 m-8 duration-500 hover:scale-110 hover:drop-shadow-[0_0_35px_rgba(174,72,251,0.7)]"
             alt="Vite logo"
           />
         </a>
         <a href="https://reactjs.org" target="_blank">
           <img
             src={reactLogo}
-            className="h-24 m-8 hover:drop-shadow-[0_0_35px_rgba(76,217,254,0.7)]"
+            className="h-24 m-8 duration-500 hover:scale-110 hover:drop-shadow-[0_0_35px_rgba(76,217,254,0.7)]"
             alt="React logo"
           />
         </a>
         <a href="https://tailwindcss.com/" target="_blank">
           <img
             src="/tailwindcss.svg"
-            className="h-24 w-24 m-6 hover:drop-shadow-[0_0_35px_rgba(84,190,246,0.7)]"
+            className="h-24 w-24 m-6 duration-500 hover:scale-110 hover:drop-shadow-[0_0_35px_rgba(84,190,246,0.7)]"
             alt="TailwindCSS logo"
           />
         </a>
